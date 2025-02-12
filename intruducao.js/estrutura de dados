@@ -1,0 +1,29 @@
+// estrutura de dados
+
+//condicional (if, else, switch case)
+
+var precoproduto = 150;
+
+if (precoproduto>100 ){
+    console.log("valor a pagar: " +(precoproduto*0.9)); //10% de desconto
+    } else{
+        console.log("Valor a Pagar: "+precoProduto);
+
+
+    }
+//swtch case
+var (mes){
+    case 1:
+        console.log("janeiro");
+        break;
+    case 2:
+        console.log("fevereiro");
+        break;
+    case 3:
+        console.log("março");
+        break;
+    case 4:
+        console.log("outro mes");
+}
+
+    
