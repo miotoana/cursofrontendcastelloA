@@ -6,7 +6,7 @@ body{
 
 .quizContainer{
     background-color: aliceblue;
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -28,3 +28,27 @@ button:disabled{
     cursor: not-allowed;
 }
 
+.opcao{
+    display: block;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opcao:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.correta{
+    background: green !important;
+    color: white;
+
+}
+
+.errada{
+    background-color: red !important;
+    color: white;
+}
